@@ -1,0 +1,37 @@
+body {
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  padding: 150px;
+}
+
+div {
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 650px;
+  border-radius: 15px;
+}
+
+img {
+  border-radius: 30px;
+  flex-grow: 1;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 50%;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    padding: 150px 20px;
+  }
+
+  div {
+    width: 350px;
+    height: auto;
+  }
+}
